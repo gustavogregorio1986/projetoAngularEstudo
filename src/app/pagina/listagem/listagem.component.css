@@ -4,3 +4,10 @@
   background-color: cadetblue;
   text-align: center;
 }
+
+.botao{
+   border-radius: 90px;
+   background-color: black;
+   color: white;
+   font-size: 20px;
+}
