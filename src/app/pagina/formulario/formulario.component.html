@@ -1,0 +1,13 @@
+<div class="formulario">
+ <form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
+   <h3>Cadastro do formulário</h3>
+   <label class="layout">Nome:</label>
+   <input type="text" name="nome" formControlName="nome" class="campo"/>
+   <label class="layout">Email:</label>
+   <input type="email" name="email" formControlName="email" class="campo"/>
+   <label class="layout">Idade:</label>
+   <input type="number" name="idade" formControlName="idade" class="campo"/>
+   <br/><br/>
+   <input type="button" value="Cadastrar formulario" class="botao"/>
+  </form>
+</div>

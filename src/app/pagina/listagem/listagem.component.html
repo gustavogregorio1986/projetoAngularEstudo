@@ -1,0 +1,18 @@
+<app-header></app-header>
+<div class="listagem">
+  <table>
+     <tr>
+       <th>Codigo</th>
+       <th>Nome</th>
+       <th>Email</th>
+       <th>Idade</th>
+     </tr>
+     <tr *ngFor="let pessoa of listaItens">
+       <td>{pessoa.id}</td>
+       <td>{pessoa.nome}</td>
+       <td>{pessoa.idade}</td>
+       <td>{pessoa.email}</td>
+     </tr>
+  </table>
+</div>
+<app-footer></app-footer>

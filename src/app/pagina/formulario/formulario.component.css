@@ -1,0 +1,30 @@
+.formulario{
+   width: 100%;
+   height: 400px;
+   background-color: cadetblue;
+   text-align: center;
+}
+
+h3{
+   color: white;
+   font-style: italic;
+}
+
+.layout{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.campo{
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.botao{
+  border-radius: 60px;
+  font-size: 20px;
+}
